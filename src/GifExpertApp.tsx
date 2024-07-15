@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState } from 'react';
 import { Button } from 'primereact/button';
 
-function App() {
+function GifExpertApp() {
   const [count, setCount] = useState(0)
 
   return (
@@ -13,4 +13,4 @@ function App() {
   )
 }
 
-export default App
+export default GifExpertApp;
