@@ -4,7 +4,7 @@ import { Header,Footer } from './components';
 
 const MainLayout: FC = () => {
   return (
-    <div>
+    <div className="h-screen w-full flex flex-column justify-content-between">
       <Header />
       <div className="p-5">
         <Outlet />
