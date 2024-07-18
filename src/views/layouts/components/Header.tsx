@@ -1,21 +1,26 @@
 import { FC } from 'react';
 import { Menubar } from 'primereact/menubar';
+import { useNavigate } from 'react-router-dom';
 
 
 const Header: FC = () => {
+  const navigate = useNavigate();
   const items = [
     {
       label: 'Home',
-      icon: 'pi pi-home'
+      icon: 'pi pi-home',
+      command: () => {
+        navigate('/');
+      }
     },
     {
-      label: 'Features',
-      icon: 'pi pi-star'
+      label: 'Search GIFs',
+      icon: 'pi pi-images',
+      command: () => {
+        navigate('/gifs');
+      }
     },
-    {
-      label: 'Contact',
-      icon: 'pi pi-envelope'
-    }
+
   ];
 
   return (
