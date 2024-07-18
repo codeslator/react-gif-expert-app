@@ -2,11 +2,11 @@ import { FC } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Header,Footer } from './components';
 
-const MainLayout: FC = () => {
+const AppLayout: FC = () => {
   return (
     <div className="h-screen w-full flex flex-column justify-content-between">
       <Header />
-      <div className="p-5">
+      <div className="py-5 px-3 md:px-8 h-full">
         <Outlet />
       </div>
       <Footer />
@@ -14,4 +14,4 @@ const MainLayout: FC = () => {
   );
 };
 
-export default MainLayout;
+export default AppLayout;
