@@ -1,6 +1,7 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
-import { PATHS } from "../global";
+import { PATHS, ROUTES } from "../global";
 import { AppLayout } from "../views/layouts";
+import { GifListPage, HomePage } from "../views";
 
 export const router = createBrowserRouter([
   {
@@ -9,15 +10,15 @@ export const router = createBrowserRouter([
     children: [
       {
         path: PATHS.ROOT,
-        element: <h1>GifExpertApp</h1>,
+        element: <HomePage />,
       },
       {
         path: PATHS.HOME,
-        element: <Navigate to="/" />,
+        element: <Navigate to={ROUTES.ROOT} />,
       },
       {
         path: PATHS.GIFS,
-        element: <h1>GifExpert ListApp</h1>,
+        element: <GifListPage />,
       },
     ]
   },
