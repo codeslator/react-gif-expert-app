@@ -1,10 +1,18 @@
 import { giphyApi } from "../api";
+import { Gif, GiphyImage, GiphyResponse } from "../global";
 
-export const getGifs = async (search: string) => {
-  const { data } = await giphyApi.get('', {
+export const getGifs = async (search: string): Promise<Gif[]> => {
+  const { data } = await giphyApi.get<GiphyResponse>('', {
     params: {
       q: encodeURI(search)
     }
   });
-  return data;
+
+  const gifs: Gif[] = data.data.map((image: GiphyImage) => ({
+    id: image.id,
+    title: image.title,
+    url: image.images?.downsized_medium.url
+  }));
+
+  return gifs;
 };

@@ -6,7 +6,7 @@ const AppLayout: FC = () => {
   return (
     <div className="h-screen w-full flex flex-column justify-content-between">
       <Header />
-      <div className="py-5 px-3 md:px-8 h-full">
+      <div className="py-5 px-3 md:px-8">
         <Outlet />
       </div>
       <Footer />
