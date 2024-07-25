@@ -10,13 +10,13 @@ const GifListPage: FC = () => {
   };
 
   return (
-    <>
-      <h1>GifExpert</h1>
+    <div>
+      <h1 className="text-center">GifExpert</h1>
       <AddCategory onNewCategory={handleAddCategory} />
       {categories.map((category: string) => (
         <GifGrid key={category} category={category} />
       ))}
-    </>
+    </div>
   );
 };
 

@@ -1,14 +1,16 @@
 import { FC } from 'react';
 import { Outlet } from 'react-router-dom';
+import { ScrollTop } from 'primereact/scrolltop';
 import { Header,Footer } from './components';
 
 const AppLayout: FC = () => {
   return (
     <div className="h-screen w-full flex flex-column justify-content-between">
       <Header />
-      <div className="py-5 px-3 md:px-8">
+      <main className="py-5 px-3 md:px-8">
         <Outlet />
-      </div>
+        <ScrollTop className="bg-primary" />
+      </main>
       <Footer />
     </div>
   );
