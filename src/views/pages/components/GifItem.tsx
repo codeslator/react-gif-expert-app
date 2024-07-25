@@ -1,5 +1,5 @@
-import { Card } from 'primereact/card';
 import { FC } from 'react';
+import { Card } from 'primereact/card';
 import { Gif } from '../../../global';
 
 interface GifItemProps {

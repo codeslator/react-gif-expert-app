@@ -1,5 +1,5 @@
-import { Skeleton } from 'primereact/skeleton';
 import { FC } from 'react';
+import { Skeleton } from 'primereact/skeleton';
 
 const ItemSkelleton: FC = () => {
   return (

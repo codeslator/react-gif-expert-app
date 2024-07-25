@@ -1,7 +1,7 @@
 import { FC } from 'react';
+import { GifItem, GridSkelleton } from './';
 import { useGifs } from '../../../hooks';
 import { Gif } from '../../../global';
-import { GifItem, GridSkelleton } from './';
 
 interface GifGridProps {
   category: string;
