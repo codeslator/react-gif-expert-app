@@ -1,35 +1,54 @@
-import { Button } from 'primereact/button';
 import { FC } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Button } from 'primereact/button';
+import { InfoList } from './components';
+import { environment, features, info, ROUTES } from '../../global';
 
 const HomePage: FC = () => {
+  const navigate = useNavigate();
+
+  const goToDemo = () => {
+    navigate(ROUTES.GIFS);
+  };
+
+  const goToCode = () => {
+    window.open(environment.GITHUB_REPO_URL, '_blank', 'noopener,noreferrer')
+  };
+
   return (
     <div className="grid grid-nogutter surface-50 text-800 border-round">
       <div className="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center ">
         <section>
-          <span className="block text-6xl font-bold mb-1">Create the screens</span>
-          <div className="text-6xl text-primary font-bold mb-3">your visitors deserve to see</div>
-          <p className="mt-0 mb-4 text-700 line-height-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-
-          <Button label="Learn More" type="button" className="mr-3 p-button-raised" />
-          <Button label="Live Demo" type="button" className="p-button-outlined" />
+          <span className="text-6xl font-bold mb-1">GifExpert App - </span>
+          <span className="text-6xl text-primary font-bold mb-3">React</span>
+          <p className="mt-3 mb-2 text-700 line-height-3">
+            Explore the world of GIFs in seconds! Use the search bar to find GIFs in real-time.
+            This app was created using <strong>React 18</strong>, <strong>PrimeReact</strong> and <strong>React Router Dom</strong>.
+          </p>
+          <p className="mt-0 mb-4 text-700 line-height-3">
+            Example from <strong className="text-primary">React: De cero a experto (Hooks y MERN)</strong> course by <strong>Fernando Herrera</strong>.
+          </p>
+          <Button
+            label="Demo"
+            type="button"
+            className="mr-3 p-button-raised"
+            icon="pi pi-globe"
+            onClick={goToDemo}
+          />
+          <Button
+            label="Code"
+            type="button"
+            className="p-button-outlined"
+            icon="pi pi-github"
+            onClick={goToCode}
+          />
         </section>
       </div>
       <div className="col-12 md:col-6 p-6">
-        <span className="block text-3xl font-bold mb-1">Create the screens</span>
-        <ul className="list-none p-0">
-          <li className="flex align-items-center mb-2">
-            <i className="pi pi-check-circle mr-2 text-primary" style={{ fontSize: '1.25rem' }}></i>
-            At least 10 characters
-          </li>
-          <li className="flex align-items-center mb-2">
-            <i className="pi pi-check-circle mr-2 text-primary" style={{ fontSize: '1.25rem' }}></i>
-            At least one lowercase character
-          </li>
-          <li className="flex align-items-center mb-2">
-            <i className="pi pi-check-circle mr-2 text-primary" style={{ fontSize: '1.25rem' }}></i>
-            At least one special character, e.g., ! @ # ?
-          </li>
-        </ul>
+        <span className="block text-3xl font-bold mb-1">About:</span>
+        <InfoList items={features} />
+        <span className="block text-3xl font-bold mb-1">Features:</span>
+        <InfoList items={info} />
       </div>
     </div>
   );

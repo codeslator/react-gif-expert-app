@@ -24,7 +24,7 @@ const Header: FC = () => {
   ];
 
   return (
-    <Menubar model={items} className="border-noround surface-0" />
+    <Menubar model={items} className="border-none border-noround surface-0" />
   );
 };
 

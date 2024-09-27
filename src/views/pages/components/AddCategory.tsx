@@ -3,10 +3,12 @@ import { Button } from 'primereact/button';
 import { InputText } from 'primereact/inputtext';
 
 interface AddCategoryProps {
+  categories: string[];
   onNewCategory: (value: string) => void;
+  onResetCategories: () => void;
 }
 
-const AddCategory: FC<AddCategoryProps> = ({ onNewCategory }) => {
+const AddCategory: FC<AddCategoryProps> = ({ onNewCategory, onResetCategories, categories }) => {
   const [search, setSearch] = useState<string>('');
 
   const handleSearch = (event: ChangeEvent<HTMLInputElement>) => {
@@ -24,6 +26,14 @@ const AddCategory: FC<AddCategoryProps> = ({ onNewCategory }) => {
   return (
     <form onSubmit={handleSubmit}>
       <div className="p-inputgroup flex-1">
+        {(categories.length > 0) && (
+          <Button
+            label="Reset"
+            icon="pi pi-times"
+            severity="danger"
+            onClick={onResetCategories}
+          />
+        )}
         <InputText
           type="text"
           placeholder="Search a category"
