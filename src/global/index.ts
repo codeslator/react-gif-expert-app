@@ -10,7 +10,7 @@ export const info = [
   'Responsive Design (mobile first)',
   'Fetch to Giphy API',
   'Testing with Jest and React Testing Library',
-  'Deployed at Vercel'
+  'Deployed in Vercel'
 ];
 
 export const features = [
