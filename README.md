@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# GIF Expert App - React
+Explore the world of GIFs in seconds! Use the search bar to find GIFs in real-time. This app was created using **React 18**, **PrimeReact** and **React Router Dom**.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Example from **React: De cero a experto (Hooks y MERN)** course by **Fernando Herrera**.
 
-Currently, two official plugins are available:
+Demo: []
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### About:
 
-## Expanding the ESLint configuration
+- Created with **React 18** + **Vite** + **TypeScript**
+- Routed with **React Router DOM**
+- Use **PrimeReact** + **PrimeBlocks** to create UI
+- Custom hooks
+- Responsive Design (mobile first)
+- Fetch to **Giphy API**
+- Testing with **Jest** and **React Testing Library**
+- Deployed in **Vercel**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Features:
 
-- Configure the top-level `parserOptions` property like this:
+- Type a word in the search bar and get your GIF's
+- List 12 GIF\s in a grid.
+- Display search history.
+- Reset all search.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Requirements
+
+To run this app, you must have installed Node & NPM.
+
+### Installation
+
+This README has the instructions to install and execute this webapp. The first step is clone the repository from GitHub.
+```
+https://github.com/codeslator/gif-expert-app.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+After clone the repository, you must to install all dependencies.
+
+```
+cd gif-expert-app
+npm install
+```
+
+When dependencies are installed, before run the webapp in local, make sure you have the .env file in the repository with the following variables:
+```
+VITE_GIPHY_API_KEY='your apikey here'
+```
+
+Finally, you can execute the Vite App using the following command:
+```
+npm run dev
+```
+If application started correctly, will be listen in 5173 port. Open in your Browser the following URL: http://localhost:5173/
