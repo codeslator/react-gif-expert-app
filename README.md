@@ -18,10 +18,10 @@ Demo: []
 
 ### Features:
 
-Type a word in the search bar and get your GIF's
-List 12 GIF\s in a grid.
-Display search history.
-Reset all search.
+- Type a word in the search bar and get your GIF's
+- List 12 GIF\s in a grid.
+- Display search history.
+- Reset all search.
 
 ### Requirements
 
