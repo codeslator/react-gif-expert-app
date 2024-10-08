@@ -24,7 +24,7 @@ const AddCategory: FC<AddCategoryProps> = ({ onNewCategory, onResetCategories, c
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} aria-label="form">
       <div className="p-inputgroup flex-1">
         {(categories.length > 0) && (
           <Button

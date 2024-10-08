@@ -21,7 +21,6 @@ const useGifs = (category: string) => {
   return {
     gifs,
     isLoading,
-    fetchGifs
   }
 };
 

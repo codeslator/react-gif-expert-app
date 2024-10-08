@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react"
-import { GifItem } from "../views/pages/components"
+import { GifItem } from "../../views/pages/components"
 
 describe('Test <GifItem /> component.', () => {
   const gif = {

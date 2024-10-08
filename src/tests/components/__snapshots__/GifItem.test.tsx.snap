@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Test <GifItem /> Should to match with the snapshot. 1`] = `
+exports[`Test <GifItem /> component. Should to match with the snapshot. 1`] = `
 <div>
   <div
     class="h-full p-card p-component"
