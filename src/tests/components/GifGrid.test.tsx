@@ -2,6 +2,8 @@ import { render, screen } from "@testing-library/react"
 import { GifGrid } from "../../views/pages/components"
 import useGifs from "../../hooks/useGifs";
 
+jest.mock("../../hooks/useGifs");
+
 const mockUseGifs = jest.mocked(useGifs)
 
 describe('Test <GifGrid /> component.', () => {
