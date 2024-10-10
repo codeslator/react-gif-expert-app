@@ -1,11 +1,11 @@
-# GIF Expert App - React
+# ⚛️ GIF Expert App - React
 Explore the world of GIFs in seconds! Use the search bar to find GIFs in real-time. This app was created using **React 18**, **PrimeReact** and **React Router Dom**.
 
 Example from **React: De cero a experto (Hooks y MERN)** course by **Fernando Herrera**.
 
-Demo: []
+**Demo**: https://gif-expert-app-zeta-nine.vercel.app
 
-### About:
+### 🚀 About:
 
 - Created with **React 18** + **Vite** + **TypeScript**
 - Routed with **React Router DOM**
@@ -16,18 +16,18 @@ Demo: []
 - Testing with **Jest** and **React Testing Library**
 - Deployed in **Vercel**
 
-### Features:
+### ✅ Features:
 
 - Type a word in the search bar and get your GIF's
 - List 12 GIF\s in a grid.
 - Display search history.
 - Reset all search.
 
-### Requirements
+### 📋 Requirements
 
 To run this app, you must have installed Node & NPM.
 
-### Installation
+### ⚙️ Installation
 
 This README has the instructions to install and execute this webapp. The first step is clone the repository from GitHub.
 ```
