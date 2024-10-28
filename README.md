@@ -31,7 +31,7 @@ To run this app, you must have installed Node & NPM.
 
 This README has the instructions to install and execute this webapp. The first step is clone the repository from GitHub.
 ```
-https://github.com/codeslator/gif-expert-app.git
+https://github.com/codeslator/react-gif-expert-app.git
 ```
 
 After clone the repository, you must to install all dependencies.
