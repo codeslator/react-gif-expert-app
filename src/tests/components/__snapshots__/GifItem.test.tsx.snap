@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <GifItem /> component. Should to match with the snapshot. 1`] = `
+<div>
+  <div
+    class="h-full p-card p-component"
+    data-pc-name="card"
+    data-pc-section="root"
+  >
+    <div
+      class="p-card-header"
+      data-pc-section="header"
+    >
+      <img
+        alt="Pokemon"
+        src="https://pokemon.com/bulbasaur.jpg"
+      />
+    </div>
+    <div
+      class="p-card-body"
+      data-pc-section="body"
+    >
+      <div
+        class="p-card-title"
+        data-pc-section="title"
+      >
+        Pokemon
+      </div>
+    </div>
+  </div>
+</div>
+`;

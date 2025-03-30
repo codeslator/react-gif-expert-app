@@ -1,0 +1,486 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test <GifExpertApp /> component. Should to match with the snapshot. 1`] = `
+<div>
+  <div
+    class="h-screen w-full flex flex-column justify-content-between"
+  >
+    <div
+      class="border-none border-noround surface-0 p-menubar p-component"
+      data-pc-name="menubar"
+      data-pc-section="root"
+    >
+      <a
+        aria-controls="pr_id_1"
+        aria-expanded="false"
+        aria-haspopup="false"
+        aria-label="Navigation"
+        class="p-menubar-button"
+        data-pc-section="button"
+        href="#"
+        role="button"
+        tabindex="0"
+      >
+        <svg
+          aria-hidden="true"
+          class="p-icon"
+          data-pc-section="popupicon"
+          fill="none"
+          height="14"
+          viewBox="0 0 14 14"
+          width="14"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            clip-rule="evenodd"
+            d="M13.3226 3.6129H0.677419C0.497757 3.6129 0.325452 3.54152 0.198411 3.41448C0.0713707 3.28744 0 3.11514 0 2.93548C0 2.75581 0.0713707 2.58351 0.198411 2.45647C0.325452 2.32943 0.497757 2.25806 0.677419 2.25806H13.3226C13.5022 2.25806 13.6745 2.32943 13.8016 2.45647C13.9286 2.58351 14 2.75581 14 2.93548C14 3.11514 13.9286 3.28744 13.8016 3.41448C13.6745 3.54152 13.5022 3.6129 13.3226 3.6129ZM13.3226 7.67741H0.677419C0.497757 7.67741 0.325452 7.60604 0.198411 7.479C0.0713707 7.35196 0 7.17965 0 6.99999C0 6.82033 0.0713707 6.64802 0.198411 6.52098C0.325452 6.39394 0.497757 6.32257 0.677419 6.32257H13.3226C13.5022 6.32257 13.6745 6.39394 13.8016 6.52098C13.9286 6.64802 14 6.82033 14 6.99999C14 7.17965 13.9286 7.35196 13.8016 7.479C13.6745 7.60604 13.5022 7.67741 13.3226 7.67741ZM0.677419 11.7419H13.3226C13.5022 11.7419 13.6745 11.6706 13.8016 11.5435C13.9286 11.4165 14 11.2442 14 11.0645C14 10.8848 13.9286 10.7125 13.8016 10.5855C13.6745 10.4585 13.5022 10.3871 13.3226 10.3871H0.677419C0.497757 10.3871 0.325452 10.4585 0.198411 10.5855C0.0713707 10.7125 0 10.8848 0 11.0645C0 11.2442 0.0713707 11.4165 0.198411 11.5435C0.325452 11.6706 0.497757 11.7419 0.677419 11.7419Z"
+            fill="currentColor"
+            fill-rule="evenodd"
+          />
+        </svg>
+      </a>
+      <ul
+        class="p-menubar-root-list"
+        data-id="pr_id_1"
+        data-pc-section="menu"
+        level="0"
+        role="menubar"
+        tabindex="0"
+      >
+        <li
+          aria-disabled="false"
+          aria-label="Home"
+          aria-level="1"
+          aria-posinset="1"
+          aria-setsize="2"
+          class="p-menuitem"
+          data-id="pr_id_1_0"
+          data-p-disabled="false"
+          data-p-focused="false"
+          data-p-highlight="false"
+          data-pc-section="menuitem"
+          role="menuitem"
+        >
+          <div
+            class="p-menuitem-content"
+            data-pc-section="content"
+          >
+            <a
+              aria-haspopup="false"
+              aria-hidden="true"
+              class="p-menuitem-link"
+              data-pc-section="action"
+              href="#"
+              tabindex="-1"
+            >
+              <span
+                class="p-menuitem-icon pi pi-home"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-menuitem-text"
+                data-pc-section="label"
+              >
+                Home
+              </span>
+            </a>
+          </div>
+          <ul
+            class="p-submenu-list"
+            data-id="pr_id_1"
+            data-pc-section="submenu"
+            level="1"
+            role="menu"
+            style="display: none;"
+          />
+        </li>
+        <li
+          aria-disabled="false"
+          aria-label="Search GIFs"
+          aria-level="1"
+          aria-posinset="2"
+          aria-setsize="2"
+          class="p-menuitem"
+          data-id="pr_id_1_1"
+          data-p-disabled="false"
+          data-p-focused="false"
+          data-p-highlight="false"
+          data-pc-section="menuitem"
+          role="menuitem"
+        >
+          <div
+            class="p-menuitem-content"
+            data-pc-section="content"
+          >
+            <a
+              aria-haspopup="false"
+              aria-hidden="true"
+              class="p-menuitem-link"
+              data-pc-section="action"
+              href="#"
+              tabindex="-1"
+            >
+              <span
+                class="p-menuitem-icon pi pi-images"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-menuitem-text"
+                data-pc-section="label"
+              >
+                Search GIFs
+              </span>
+            </a>
+          </div>
+          <ul
+            class="p-submenu-list"
+            data-id="pr_id_1"
+            data-pc-section="submenu"
+            level="1"
+            role="menu"
+            style="display: none;"
+          />
+        </li>
+      </ul>
+    </div>
+    <main
+      class="py-5 px-3 md:px-8"
+    >
+      <div
+        class="grid grid-nogutter surface-50 text-800 border-round"
+      >
+        <div
+          class="col-12 md:col-6 p-6 text-center md:text-left flex align-items-center "
+        >
+          <section>
+            <span
+              class="text-6xl font-bold mb-1"
+            >
+              GifExpert App - 
+            </span>
+            <span
+              class="text-6xl text-primary font-bold mb-3"
+            >
+              React
+            </span>
+            <p
+              class="mt-3 mb-2 text-700 line-height-3"
+            >
+              Explore the world of GIFs in seconds! Use the search bar to find GIFs in real-time. This app was created using 
+              <strong>
+                React 18
+              </strong>
+              , 
+              <strong>
+                PrimeReact
+              </strong>
+               and 
+              <strong>
+                React Router Dom
+              </strong>
+              .
+            </p>
+            <p
+              class="mt-0 mb-4 text-700 line-height-3"
+            >
+              Example from 
+              <strong
+                class="text-primary"
+              >
+                React: De cero a experto (Hooks y MERN)
+              </strong>
+               course by 
+              <strong>
+                Fernando Herrera
+              </strong>
+              .
+            </p>
+            <button
+              aria-label="Demo"
+              class="mr-3 p-button-raised p-button p-component"
+              data-pc-name="button"
+              data-pc-section="root"
+              type="button"
+            >
+              <span
+                class="p-button-icon p-c p-button-icon-left pi pi-globe"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-button-label p-c"
+                data-pc-section="label"
+              >
+                Demo
+              </span>
+            </button>
+            <button
+              aria-label="Code"
+              class="p-button-outlined p-button p-component"
+              data-pc-name="button"
+              data-pc-section="root"
+              type="button"
+            >
+              <span
+                class="p-button-icon p-c p-button-icon-left pi pi-github"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-button-label p-c"
+                data-pc-section="label"
+              >
+                Code
+              </span>
+            </button>
+          </section>
+        </div>
+        <div
+          class="col-12 md:col-6 p-6"
+        >
+          <span
+            class="block text-3xl font-bold mb-1"
+          >
+            About:
+          </span>
+          <ul
+            class="list-none p-0"
+          >
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Type a word in the search bar and get your GIF's
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              List 12 GIF's in a grid
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Display search history.
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Reset all search.
+            </li>
+          </ul>
+          <span
+            class="block text-3xl font-bold mb-1"
+          >
+            Features:
+          </span>
+          <ul
+            class="list-none p-0"
+          >
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Created with React 18 + Vite + TypeScript
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Routed with React Router DOM
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Use PrimeReact to create UI
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Custom hooks
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Responsive Design (mobile first)
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Fetch to Giphy API
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Testing with Jest and React Testing Library
+            </li>
+            <li
+              class="flex align-items-center mb-2"
+            >
+              <i
+                class="pi pi-check-circle mr-2 text-primary"
+                style="font-size: 1.25rem;"
+              />
+              Deployed in Vercel
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer
+      class="surface-0"
+    >
+      <div
+        class="w-full mx-auto p-4"
+      >
+        <div
+          class="flex flex-column sm:flex-row align-items-center justify-content-between"
+        >
+          <a
+            class="flex align-items-center mb-4 sm:mb-0 no-underline"
+            href="https://codeslator.dev/"
+          >
+            <img
+              alt="Codeslator Logo"
+              class="w-3rem h-3rem"
+              src="https://codeslator.dev/wp-content/uploads/2024/07/Iso_Color_White.svg"
+            />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap mx-3 text-white"
+            >
+              GifExpert
+            </span>
+          </a>
+          <div
+            class="w-full sm:w-auto flex flex-row justify-content-evenly align-items-center"
+          >
+            <button
+              aria-label="Facebook"
+              class="sm:mr-3 p-button p-component p-button-icon-only p-button-link p-button-text p-button-sm p-button-secondary"
+              data-pc-name="button"
+              data-pc-section="root"
+            >
+              <span
+                class="p-button-icon p-c pi pi-facebook"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-button-label p-c"
+                data-pc-section="label"
+              >
+                 
+              </span>
+            </button>
+            <button
+              aria-label="Instagram"
+              class="sm:mr-3 p-button p-component p-button-icon-only p-button-link p-button-text p-button-sm p-button-secondary"
+              data-pc-name="button"
+              data-pc-section="root"
+            >
+              <span
+                class="p-button-icon p-c pi pi-instagram"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-button-label p-c"
+                data-pc-section="label"
+              >
+                 
+              </span>
+            </button>
+            <button
+              aria-label="LinkedIn"
+              class="sm:mr-3 p-button p-component p-button-icon-only p-button-link p-button-text p-button-sm p-button-secondary"
+              data-pc-name="button"
+              data-pc-section="root"
+            >
+              <span
+                class="p-button-icon p-c pi pi-linkedin"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-button-label p-c"
+                data-pc-section="label"
+              >
+                 
+              </span>
+            </button>
+            <button
+              aria-label="Github"
+              class="sm:mr-3 p-button p-component p-button-icon-only p-button-link p-button-text p-button-sm p-button-secondary"
+              data-pc-name="button"
+              data-pc-section="root"
+            >
+              <span
+                class="p-button-icon p-c pi pi-github"
+                data-pc-section="icon"
+              />
+              <span
+                class="p-button-label p-c"
+                data-pc-section="label"
+              >
+                 
+              </span>
+            </button>
+          </div>
+        </div>
+        <hr
+          class="my-3 sm:mx-auto border-gray-700 lg:my-4"
+        />
+        <span
+          class="block text-sm text-white text-center"
+        >
+          © 
+          2024
+           
+          <a
+            class="no-underline hover:underline text-primary-500"
+            href="https://codeslator.dev/"
+          >
+            CodeslatorDev
+          </a>
+          . All Rights Reserved.
+        </span>
+      </div>
+    </footer>
+  </div>
+</div>
+`;
